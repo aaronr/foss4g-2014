@@ -10,4 +10,6 @@ Langley is a small rural community in Washington State.  Like so many other smal
 
 This talk with go over the technical aspects of the workflows that have proven fruitful for engaging local community members of small rural communities in both data creation and curation.  We will also look at the social aspects of getting local governments engaged in the process of leveraging community resources for open access to data and tools.
 
+https://github.com/langleywa
+
  
