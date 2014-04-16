@@ -6,7 +6,7 @@ Quadcopter GIS for less than $700 - Hardware and software to map your local comm
 Abstract
 ========
 
-Quadcopter - Phantom FC40 ($500). Camera - Canon PowerShot ELPH 130 IS 16.0 MP ($110). Opportunity to engage your local community to produce open date - priceless. 
+Quadcopter - Phantom FC40 ($500). Camera - Canon PowerShot ELPH 130 IS 16.0 MP ($110). Opportunity to engage your local community to produce open data - priceless. 
 
 Let's get to the point.  Let's talk about hardware and software to get out there and actually map some stuff with a quadcopter.  This is the story of my adventures hacking with a Phantom quadcopter over the last 10 months to make local maps... and of course have fun.  The only rules... it has to be cheap and the software has to be open source.
 
