@@ -7,7 +7,7 @@
 <!------------------------------------------------------------>
 <!-- Topic: Title slide -->
 
-<img style="max-height: 200px;" src="images/dwh_burning_cover.png">
+<img style="max-height: 300px;" src="images/quadcopter_cover.png">
 <h2>Quadcopter GIS for less than $700</h2>
 <h4>Hardware/Software to help map your local community</h4>
 <p>
