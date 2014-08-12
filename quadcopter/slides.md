@@ -9,7 +9,7 @@
 
 <img style="max-height: 200px;" src="images/dwh_burning_cover.png">
 <h2>Quadcopter GIS for less than $700</h2>
-<h3>Hardware and software to map your local community</h3>
+<h4>Hardware/Software to help map your local community</h4>
 <p>
     <small>Aaron Racicot - <a href="mailto:aaronr@z-pulley.com">aaronr@z-pulley.com</a>
 <br>
@@ -17,7 +17,7 @@
 <br>
 <a href="https://github.com/aaronr">github.com/aaronr</a>
 <br><br>
-<a href="http://aaronr.github.io/foss4g-2014/smalltown">aaronr.github.io/foss4g-2014/smalltown</a>
+<a href="http://aaronr.github.io/foss4g-2014/smalltown">aaronr.github.io/foss4g-2014/quadcopter</a>
 </small>
 </p>
 
