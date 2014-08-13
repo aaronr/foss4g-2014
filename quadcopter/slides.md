@@ -45,7 +45,91 @@
 
 <!------------------------------------------------------------>
 --SLIDE--
-<!-- Topic: Introduce ... -->
+<!-- Topic: Hardware setup ... -->
+
+Phantom FC40
+
+--SUBSLIDE--
+
+Copter
+
+--SUBSLIDE--
+
+Camera
+
+--SUBSLIDE--
+
+Camera #2
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Why is this so interesting now ... -->
+
+Cost curve has hit an attractive point
+
+--SUBSLIDE--
+
+Technology (Hardware and Software) are becoming so easy to use
+
+--SUBSLIDE--
+
+Fun!!!!!!!!
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Is it legal ... -->
+
+Is it legal
+
+--SUBSLIDE--
+
+Where is it OK to fly
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Interesting workflows ... -->
+
+Pano image collection
+
+--SUBSLIDE--
+
+ICE
+
+--SUBSLIDE--
+
+Other processing software
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Interesting workflows ... -->
+
+OSM data creation
+
+--SUBSLIDE--
+
+Image warper
+
+--SUBSLIDE--
+
+Edit in OSM
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Interesting workflows ... -->
+
+3D from Structure from Motion (SFM)
+
+--SUBSLIDE--
+
+Visual SFM
+
+--SUBSLIDE--
+
+AgiSoft
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: xxx ... -->
 
 --SUBSLIDE--
 

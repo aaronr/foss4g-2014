@@ -44,11 +44,94 @@
 
 <!------------------------------------------------------------>
 --SLIDE--
-<!-- Topic: Introduce ... -->
+<!-- Topic: Target Audience -->
+
+Define small town...
 
 --SUBSLIDE--
 
+Our small town...
+
 --SUBSLIDE--
+
+What our small town needs...
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: GitHub ... -->
+
+GitHub
+Version Control
+Open at heart
+
+--SUBSLIDE--
+
+Types of accounts...
+
+--SUBSLIDE--
+
+Using GH Pages as a resource
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Geo at GitHub -->
+
+Geo at Github
+
+--SUBSLIDE--
+
+Preview GeoJSON
+
+--SUBSLIDE--
+
+Diff GeoJSON
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Bring the two together -->
+
+Leverage GitHub for your small town
+
+--SUBSLIDE--
+
+Minimum::
+- Store your geo-data
+- Use it to view datasets
+
+--SUBSLIDE--
+
+Medium::
+- Build Apps around it
+
+--SUBSLIDE--
+
+Max It::
+- Edit data via geojson.io
+- Store tilesets???
+
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: How we started -->
+
+ClaireH internship
+
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Examples -->
+
+Data Download App
+
+--SUBSLIDE--
+
+Water Meter App
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Where we want to go -->
+
+Generate full blown GIS workflow based on free resources
 
 <!------------------------------------------------------------>
 --SLIDE--
