@@ -47,25 +47,33 @@
 --SLIDE--
 <!-- Topic: Hardware setup ... -->
 
+<img style="max-height: 300px;" src="images/phantom_fc40.jpg">
 Phantom FC40
 
 --SUBSLIDE--
 
-Copter
+<img style="max-height: 300px;" src="images/fc40_camera.jpg">
+FPV camera (FC40)
 
 --SUBSLIDE--
 
-Camera
+<img style="max-height: 300px;" src="images/canon.jpg">
+Canon downward facing camera (CHDK)
 
 --SUBSLIDE--
 
-Camera #2
+<img style="max-height: 300px;" src="images/z-pulley_phantom.jpg">
+"The Rig"
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Why is this so interesting now ... -->
 
-Cost curve has hit an attractive point
+Why is this so interesting now...
+
+--SUBSLIDE--
+
+Aaron's Law of Quadcopter Pricing!
 
 --SUBSLIDE--
 
@@ -89,7 +97,7 @@ Where is it OK to fly
 --SLIDE--
 <!-- Topic: Interesting workflows ... -->
 
-Pano image collection
+Panoramic image stitching
 
 --SUBSLIDE--
 
@@ -97,7 +105,7 @@ ICE
 
 --SUBSLIDE--
 
-Other processing software
+AgiSoft
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -107,11 +115,17 @@ OSM data creation
 
 --SUBSLIDE--
 
-Image warper
+QGIS Warper
+
+--SUBSLIDE--
+
+MapKnitter
+http://mapknitter.org/
 
 --SUBSLIDE--
 
 Edit in OSM
+http://ideditor.com/
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -129,7 +143,9 @@ AgiSoft
 
 <!------------------------------------------------------------>
 --SLIDE--
-<!-- Topic: xxx ... -->
+<!-- Topic: Future ... -->
+
+DEM's and optimal accuracy
 
 --SUBSLIDE--
 
