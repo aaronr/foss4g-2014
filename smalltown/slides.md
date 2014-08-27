@@ -46,44 +46,68 @@
 --SLIDE--
 <!-- Topic: Target Audience -->
 
-Define small town...
+Small Town < 0-10k residents
 
 --SUBSLIDE--
 
-Our small town...
+<img style="max-height: 450px;" src="images/langley_city_limits.png">
+<br>
+1 Square Mile / 1000 people
 
 --SUBSLIDE--
 
-What our small town needs...
+<h2>What our small town does not have...</h2>
+<p class="fragment">Money</p>
+<p class="fragment">Resources (People)</p>
+<p class="fragment">Resources (Technology)</p>
+
+--SUBSLIDE--
+
+<h2>What our small town needs...</h2>
+<p class="fragment">Inexpensive solutions</p>
+<p class="fragment">Data normalization</p>
+<p class="fragment">Data access</p>
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: GitHub ... -->
 
-GitHub
-Version Control
-Open at heart
+<h2>GitHub</h2>
+<p class="fragment">Version Control (Data and Applications)</p>
+<p class="fragment">Hosting (GitHub Pages)</p>
+<p class="fragment">Open at heart!</p>
+<p class="fragment">Free!!!</p>
 
 --SUBSLIDE--
 
-Types of accounts...
+<img style="max-height: 450px;" src="images/github_plans.png">
+<br>
+Work in the open... for FREE!
 
 --SUBSLIDE--
 
-Using GH Pages as a resource
+<img style="max-height: 450px;" src="images/github_pages.png">
+<br>
+Leveraging GitHub Pages for hosting
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Geo at GitHub -->
 
+<img style="max-height: 450px;" src="images/github_geo.png">
+<br>
 Geo at Github
 
 --SUBSLIDE--
 
-Preview GeoJSON
+<img style="max-height: 450px;" src="images/github_geo_preview.png">
+<br>
+Preview data
 
 --SUBSLIDE--
 
+<img style="max-height: 450px;" src="images/github_diff.gif">
+<br>
 Diff GeoJSON
 
 <!------------------------------------------------------------>
