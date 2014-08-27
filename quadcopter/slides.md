@@ -47,22 +47,26 @@
 --SLIDE--
 <!-- Topic: Hardware setup ... -->
 
-<img style="max-height: 300px;" src="images/phantom_fc40.jpg">
+<img style="max-height: 450px;" src="images/phantom_fc40.jpg">
+<br>
 Phantom FC40
 
 --SUBSLIDE--
 
-<img style="max-height: 300px;" src="images/fc40_camera.jpg">
+<img style="max-height: 450px;" src="images/fc40_camera.jpg">
+<br>
 FPV camera (FC40)
 
 --SUBSLIDE--
 
-<img style="max-height: 300px;" src="images/canon.jpg">
+<img style="max-height: 450px;" src="images/canon.jpg">
+<br>
 Canon downward facing camera (CHDK)
 
 --SUBSLIDE--
 
-<img style="max-height: 300px;" src="images/z-pulley_phantom.jpg">
+<img style="max-height: 450px;" src="images/z-pulley_phantom.jpg">
+<br>
 "The Rig"
 
 <!------------------------------------------------------------>
