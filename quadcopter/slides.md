@@ -152,7 +152,7 @@ AgiSoft
 --SLIDE--
 <!-- Topic: Future ... -->
 
-DEM's and optimal accuracy
+DEMs and optimal accuracy
 
 --SUBSLIDE--
 
