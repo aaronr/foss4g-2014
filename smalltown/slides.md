@@ -64,6 +64,18 @@ Washington State - North of Seattle
 
 <!------------------------------------------------------------>
 --SLIDE--
+<!-- Topic: How we started -->
+
+<h2><span style="color:#ff0000;">How this started</span></h2>
+Student Internship
+
+--SUBSLIDE--
+
+<h2><span style="color:#ff0000;">Where we want to go</span></h2>
+Partnerships with local Government
+
+<!------------------------------------------------------------>
+--SLIDE--
 <!-- Topic: Needs -->
 
 <h2>What our small town does not have...</h2>
@@ -166,17 +178,92 @@ Build Apps!
 <h2><span style="color:#ff0000;">Data</span></h2>
 GeoJSON + Tile Sets
 
-<!------------------------------------------------------------>
---SLIDE--
-<!-- Topic: How we started -->
+--SUBSLIDE--
 
-<h2><span style="color:#ff0000;">How this started</span></h2>
-Student Internship
+<h2><span style="color:#ff0000;">GeoJSON</span></h2>
+
+Convert and reproject to WGS84 lat/lon (EPSG:4326)
+
+<pre><code>
+for f in *.shp; do ogr2ogr -f "GeoJSON" -s_srs EPSG:2285 ...
+-t_srs EPSG:4326 ${f/.shp}_4326.geojson $f; done
+</code></pre>
 
 --SUBSLIDE--
 
-<h2><span style="color:#ff0000;">Where we want to go</span></h2>
-Partnerships with local Government
+<img style="max-height: 450px;" src="images/new_repo.png">
+<br>
+Create repo on GitHub
+
+--SUBSLIDE--
+
+<pre><code>
+git clone git@github.com:langleywa/gisdata.git
+cd gisdata
+mv ~/mylayer.geojson .
+git add mylayer.geojson
+git commit -m "Yes... DATA"
+git push
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+git checkout -b gh-pages
+git push origin gh-pages
+</code></pre>
+
+--SUBSLIDE--
+
+http://langleywa.github.io/gisdata/geojson/citylimitsline_4326.geojson
+<br>
+<img style="max-height: 450px;" src="images/geojson.png">
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: -->
+
+<h2><span style="color:#ff0000;">Tile Sets</span></h2>
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/qgis.png">
+<br>
+Geo reference your data
+
+--SUBSLIDE--
+
+<pre><code>
+nearblack -of GTiff -setalpha -o outfile infile
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+gdal2tiles.py --profile=mercator -z 1-22 yourmap.tif outputfolder
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+git add outputfolder
+git commit -m "Yes... TILE DATA"
+git push
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+git checkout gh-pages
+git merge master
+git push origin gh-pages
+</code></pre>
+
+--SUBSLIDE--
+
+http://langleywa.github.io/gisdata/tiles/langley-2nd-street-2014/21/335500/1368498.png
+<br>
+<img style="max-height: 450px;" src="images/tile.png">
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -202,3 +289,9 @@ Diff URL<br>
 
 <img style="max-height: 150px;" src="images/z-pulley.png"><h1>Thank You !!!</h1><img style="max-height: 150px;" src="images/cugos.png">
 
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Test -->
+<pre><code>
+gdalinfo --help
+</code></pre>
