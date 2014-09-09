@@ -267,6 +267,25 @@ http://langleywa.github.io/gisdata/tiles/langley-2nd-street-2014/21/335500/13684
 
 <!------------------------------------------------------------>
 --SLIDE--
+<!-- Topic: Examples adding data-->
+
+GeoJson
+<pre><code>
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('/gisdata/geojson/citylimitsline_4326.geojson')
+    .addTo(map);
+</code></pre>
+
+--SUBSLIDE--
+
+Tiles
+<pre><code>
+var tileLayer = L.tileLayer('/gisdata/tiles/langley-2nd-street-2014/{z}/{x}/{y}.png', 
+    {tms: true, minZoom:1, maxZoom:22, bounds:bounds}).addTo(map);
+</code></pre>
+
+<!------------------------------------------------------------>
+--SLIDE--
 <!-- Topic: Examples -->
 
 Test App<br>
