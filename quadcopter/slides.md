@@ -25,22 +25,40 @@
 --SLIDE--
 <!-- Topic: Introduce myself -->
 
-<h1>Who I am?</h1>
-
-<ul>
-  <li><strong>SW <span style="color:#ff0000;">Developer</span></strong></li>
-  <li><strong>Environmental <span style="color:#ff0000;">Scientist</span></strong></li>
-  <li><strong>Open Source <span style="color:#ff0000;">Advocate</span></strong></li>
-</ul>
-
---SUBSLIDE--
-
   <h3>Computer Science</h3>
   <h2><span style="color:#ff0000;">Bridging the Gap</span></h2>
   <h3>Environmental Science</h3>
 
 --SUBSLIDE--
+
 <img src="images/whoami.png">
+
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Hardware setup ... -->
+
+How did we get here?
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/shean.png">
+<br>
+David Shean "Ice Man"
+<br>
+<small>http://psc.apl.washington.edu/wordpress/people/students/david-shean/</small>
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/google_quad.png">
+<br>
+CUGOS "Google Guys"
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/jump_video.png">
+<br>
+Video the bikes!
 
 
 <!------------------------------------------------------------>
@@ -49,7 +67,7 @@
 
 <img style="max-height: 450px;" src="images/phantom_fc40.jpg">
 <br>
-Phantom FC40
+Phantom FC40 (~$450)
 
 --SUBSLIDE--
 
@@ -61,13 +79,19 @@ FPV camera (FC40)(720p)
 
 <img style="max-height: 450px;" src="images/canon.jpg">
 <br>
-Canon (16MP) downward facing camera (CHDK)
+Canon (elph 130 16MP) downward facing (CHDK) (~$130)
 
 --SUBSLIDE--
 
 <img style="max-height: 450px;" src="images/chdk.png">
 <br>
 CHDK
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/extra.jpg">
+<br>
+Prop Guards + Extra battery + Camera mount(~$50)
 
 --SUBSLIDE--
 
@@ -80,23 +104,18 @@ CHDK
 <!-- Topic: Why is this so interesting now ... -->
 
 Why is this so interesting now...
-<p class="fragment"><span style="color:#ff0000;">CHEAP!!</span></p>
-
---SUBSLIDE--
-
-<img style="max-height: 450px;" src="images/price_drop.jpg">
-<br>
-Aaron's Law of Quadcopter Pricing!
+<p class="fragment"><img style="max-height: 450px;" src="images/price_drop.jpg"></p>
+<p class="fragment">$$$$$ Cheap $$$$$</p>
 
 --SUBSLIDE--
 
 <img style="max-height: 450px;" src="images/maps_fun.jpg">
 <br>
-Technology (Hardware and Software) are easy to use
+Technology is easy to use
 
 --SUBSLIDE--
 
-<h1><span style="color:#ff0000;">FUN!!!!!!!!!!</span></h1>
+<h1>FUN!</h1>
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -107,11 +126,15 @@ Where is it OK to fly
 <br>
 https://www.mapbox.com/drone/no-fly/
 
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/dos-and-donts.png">
+
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Interesting workflows ... -->
 
-<h2><span style="color:#ff0000;">Workflow</span></h2>
+<h2><span style="color:#ff0000;">Workflow #1</span></h2>
 Panoramic image stitching
 
 --SUBSLIDE--
@@ -119,6 +142,12 @@ Panoramic image stitching
 <img style="max-height: 450px;" src="images/google.png">
 <br>
 ... as good as Google gets
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/single.jpg">
+<br>
+200 of these
 
 --SUBSLIDE--
 
@@ -140,20 +169,12 @@ AgiSoft
 
 <img style="max-height: 450px;" src="images/photoscan_stitch_180_small.jpg">
 
---SUBSLIDE--
-
-<img style="max-height: 450px;" src="images/langley_test_app_stitch.png">
-<br>
-Tile into an App!
-<br>
-qgis + nearblack + gdal2tiles + git pages
-
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Interesting workflows ... -->
 
-<h2><span style="color:#ff0000;">Workflow</span></h2>
-OSM data creation
+<h2><span style="color:#ff0000;">Workflow #2</span></h2>
+OSM data creation / Web Maps
 
 --SUBSLIDE--
 
@@ -175,21 +196,63 @@ http://mapknitter.org/
 
 --SUBSLIDE--
 
+<pre><code>
+nearblack -of GTiff -setalpha -o outfile infile
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+gdal2tiles.py --profile=mercator -z 1-22 yourmap.tif outputfolder
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+git checkout gh-pages
+git add outputfolder
+git commit -m "Yes... TILE DATA"
+git push
+</code></pre>
+
+--SUBSLIDE--
+
+http://langleywa.github.io/gisdata/tiles/langley-2nd-street-2014/21/335500/1368498.png
+<br>
+<img style="max-height: 450px;" src="images/tile.png">
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/langley_test_app_stitch.png">
+<br>
+Tiles into your App!
+
+--SUBSLIDE--
+
 <img style="max-height: 450px;" src="images/id.png">
 <br>
 Edit in OSM
 http://ideditor.com/
+https://www.openstreetmap.org/edit?editor=id#map=19/48.03979/-122.40668
+<small>http://langleywa.github.io/gisdata/tiles/langley-2nd-street-2014-tms/{z}/{x}/{y}.png</small>
+
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Interesting workflows ... -->
 
-<h2><span style="color:#ff0000;">Workflow</span></h2>
+<h2><span style="color:#ff0000;">Workflow #3</span></h2>
 3D from Structure from Motion (SFM)
 
 --SUBSLIDE--
 
-<img style="max-height: 450px;" src="images/matches2.png">
+<img style="max-height: 450px;" src="images/image_load.jpg">
+<br>
+Load image batches
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/match.png">
 <br>
 Matching
 
@@ -233,7 +296,7 @@ Dense Point Cloud
 
 --SUBSLIDE--
 
-<img style="max-height: 450px;" src="images/photoscan_image_texture.png">
+<img style="max-height: 650px;" src="images/photoscan_image_texture.png">
 <br>
 Textured Mesh
 
@@ -266,7 +329,7 @@ Farm
 
 <img style="max-height: 450px;" src="images/ps_vsfm_compare.png">
 <br>
-Compare (VSFM vs PhotoScan)
+Compare (PhotoScan vs VSFM)
 
 
 <!------------------------------------------------------------>
@@ -274,7 +337,19 @@ Compare (VSFM vs PhotoScan)
 <!-- Topic: Future ... -->
 
 <h2><span style="color:#ff0000;">The Future</span></h2>
-DEM's, geospatial models, 3D printing, etc
+Automation, DEM's, 3D printing, etc
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/bundler.png">
+<br>
+Automation (bundler_sfm)
+
+--SUBSLIDE--
+
+<img style="max-height: 450px;" src="images/dem.png">
+<br>
+DEM's
 
 --SUBSLIDE--
 
